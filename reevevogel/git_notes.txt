@@ -40,3 +40,4 @@ make a new branch with the “git branch” command (ex: git branch git-notes)
 -origin = your stuff
 -upstream = other peoples stuff
 
+
