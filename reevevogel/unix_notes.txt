@@ -1,0 +1,65 @@
+unix :
+-multi process multi user
+-data as plaintext files (easy to read)
+-nested subdirectories (folders) (easy to organize)
+-many small programs (text editor, music player, web browser, operating system)
+-input-output redirection (input - someplace other than keyboard. output- go to some place other than screen) (history to screen, history to file)
+-kernel manages hardware:
+  —>      other programs
+              ^kernel^(traffic control)
+          ^cpu^memory^devies
+      safe from hackers. password protected.
+unix shell (provides user interface to kernel)(command line>graphical>multi-touch>audible)(when hearing shell, typically think command line) (shell protects user from directly accessing kernel)
+kernel sweats the the low level cpu stuff
+
+     terminal:
+     -app that runs the shell
+      package manager(app store of free stuff for command line)
+     -chsh=change shell
+
+      sublime text:
+      -text editor
+
+     path:
+     -represents location in filesystem
+     -like an address—>general to specific.
+     -absolute when starts with a slash
+     -relative when does not start with a slash
+      cd = change directory (absolute or relative)
+      pwd=shows directory (ex:/Users/Reeve)
+     cd / = brings you to root. the topmost container in filesystem
+     root = restricted to admin users. don’t delete from root.
+     ls = list contents in directory
+     blue colored= directory
+    pink colored = link
+    red colored = program
+    white colored = file
+    ls -t = (modification time) sort by modification date
+    ls -l = (long form). more info for list. alphabetical
+    ls -r = “r” reverses the order
+    man = manual (ex. man ls shows manual for ls)
+    la = will show everything
+    ll - shows  list long human readable
+    \ = part of last string
+   ! unix power users tend not to use spaces. use “-“ and “_”. CASE SENSITIVE. (ex:
+   Apple.txt and APPLE.txt and not the same file) (OS X is case  insensitive, those files would be the same) (unix, command line case sensitive)
+   --IN UNIX (terminal) WRITE ALL FILE NAMES LOWERCASE, NO SPACES.--
+   -change relative directory ex: “cd Desktop”
+   -change absolute directory ex: “cd /Desktop”
+   -“..” to go up a level
+   -“.” displays current directory
+   -history - shows all history
+   -history | less - organizes single file
+    -less - organizes large body of texts into readable single file
+| - “pipes” to another program
+> - move file name from left side to right side. (can create a file name)(if name already exists it will be overwritten)
+>> - to append or create
+cat - shows all content of file
+mv = move file to directory +rename them +move&rename
+mkdir = make directory
+repository  = a place to store history of file
+“.” before a file or directory means it is hidden
+cp copy
+rm remove
+rmdir remove directory
+
